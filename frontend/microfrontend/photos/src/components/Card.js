@@ -4,7 +4,6 @@ import { CurrentUserContext } from '../contexts/CurrentUserContext';
 function Card({ card, onCardClick, onCardLike, onCardDelete }) {
   const cardStyle = { backgroundImage: `url(${card.link})` };
 
-  function handleClick() {
     onCardClick(card);
   }
 
